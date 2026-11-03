@@ -1,0 +1,49 @@
+bill = int(input("Enter the bill: "))
+status = eval(input("is it raining? ))
+
+if status:
+    bill+=30
+    print("Eextra Delivery chargers applied")
+
+print(f"Final Bill: {bill}")
+
+
+batterycharge = int(input("Enter the battery: "))
+
+if batterycharge<20:
+           print(f'Battery is low:{batterycharge}, charge your phone')
+
+
+ifelse 
+data = ('admin@gmail.com','admin@123')
+gmail =input("Enter the mail:")
+password =input('Enter the password:')
+
+if (gmail,password) ==data:
+     print("Login successful")
+else:
+     print("Invalid  Login")
+
+     
+nested if
+
+     products={
+      'lattops':{'price':40000,'stock':10}
+      'mouse':{'price':400,'stock':0}
+      'keyboard':{'price':2000,'stock':3}
+      'tabs':{'price':20000,'stock':5}
+      'phone':{'price':60000,'stock':8}
+ }
+
+ search = input('Enter the product name:')
+if search in products and products[search]['stocks']>0:
+    print(f"You can buy {search} at this price:${products[search]['price']}")
+else
+    print(f"")
+
+    if statement
+    
+    product =input('Enter product:')
+    beestseller=eval(input('Enter status:'))
+    if beestseller:
+           print(f{product} is best seller.' )
