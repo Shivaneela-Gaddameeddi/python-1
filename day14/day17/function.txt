@@ -1,0 +1,5 @@
+Function = function is block of code it perform the specific task whenever user call
+user define function, build in function
+built in functions are : max,  min, sum 
+user defined functions: 
+need of functions : reusability, easy to understand

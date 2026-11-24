@@ -1,0 +1,173 @@
+Level 1: Beginner (Questions 1–10)
+Easy
+ Focus: Basic recursion, base cases and recursive calls.
+
+1. Print Numbers from 1 to N
+
+   Write a recursive function to print numbers from 1 to N.
+
+Example: n = 5 → 1 2 3 4 5
+
+2. Print Numbers from N to 1
+
+   Write a recursive function to print numbers in reverse order.
+
+Example: n = 5 → 5 4 3 2 1
+
+3. Sum of First N Natural Numbers
+
+   Find the sum of numbers from 1 to N using recursion.
+
+Example: n = 5 → 15
+
+4. Factorial of a Number
+
+   Calculate the factorial of a given number using recursion.
+
+Example: n = 5 → 120
+
+5. Power of a Number
+
+Calculate \(a^b\) using recursion.
+
+Example: a = 2, b = 4 → 16
+
+6. Multiplication Table
+
+   Print the multiplication table of a given number using recursion.
+
+Example: n = 3 → 3, 6, 9, ... 30
+
+7. Count the Digits
+
+   Count the number of digits in a given integer using recursion.
+
+Example: n = 12345 → 5
+
+8. Sum of Digits
+
+   Find the sum of all digits using recursion.
+
+Example: n = 1234 → 10
+
+9. Reverse a Number
+
+   Reverse a given integer using recursion.
+
+Example: n = 1234 → 4321
+
+10. Fibonacci Series
+
+    Generate the first N Fibonacci numbers using recursion.
+
+Example: n = 6 → 0 1 1 2 3 5
+Level 2: Intermediate (Questions 11–20)
+Medium
+ Focus: Strings, lists, mathematical logic and recursive processing.
+
+11. Check Palindrome Number
+
+    Check whether a given number is a palindrome using recursion.
+
+Example: 121 → Palindrome.
+
+12. Find GCD of Two Numbers
+
+    Find the Greatest Common Divisor using recursion.
+
+Example: gcd(12, 18) → 6
+
+13. Find LCM of Two Numbers
+
+    Calculate the Least Common Multiple using recursion.
+
+Example: lcm(4, 6) → 12
+
+14. Count Occurrences in a String
+
+    Count how many times a particular character appears in a string using recursion.
+
+Example: "banana", 'a' → 3
+
+15. Reverse a String
+
+    Reverse a string without using loops.
+
+Example: "python" → "nohtyp"
+
+16. Check String Palindrome
+
+    Check whether a string reads the same forward and backward.
+
+Example: "madam" → Palindrome.
+
+17. Find Maximum Element in a List
+
+    Find the largest element in a list using recursion.
+
+Example: [10, 25, 5, 40, 15] → 40
+
+18. Find Minimum Element in a List
+
+    Find the smallest element in a list using recursion.
+
+Example: [10, 25, 5, 40, 15] → 5
+
+19. Calculate Sum of List Elements
+
+    Find the sum of all elements in a list using recursion.
+
+Example: [1, 2, 3, 4, 5] → 15
+
+20. Check Whether a Number is Prime
+
+    Check whether a given number is prime using recursion.
+
+Example: n = 7 → Prime.
+Level 3: Advanced (Questions 21–30)
+Hard
+ Focus: Multiple recursive calls, backtracking and advanced problem solving.
+21. Binary Search Using Recursion
+    
+    Search for a target element in a sorted list using recursive binary search.
+    
+    Example: [10, 20, 30, 40, 50], target = 30 → Index 2.
+22. Tower of Hanoi
+    
+    Solve the Tower of Hanoi problem using recursion.
+    
+    Example: For 3 disks, print all the required moves.
+23. Generate All Subsequences
+    
+    Generate all possible subsequences of a given string.
+    
+    Example: "abc" → ["", "a", "b", "c", "ab", "ac", "bc", "abc"]
+24. Generate All Permutations
+    
+    Generate all possible arrangements of characters in a string.
+    
+    Example: "abc" → abc, acb, bac, bca, cab, cba.
+25. Subset Sum Problem
+    
+    Find whether any subset of a list adds up to a target sum.
+    
+    Example: [2, 4, 6, 8], target = 10 → True.
+26. Count Paths in a Grid
+    
+    Find the number of possible paths from the top-left corner to the bottom-right corner of a grid, moving only right or down.
+    
+    Example: A 3 × 3 grid → 6 paths.
+27. N-Queens Problem
+    
+    Place N queens on an N × N chessboard so that no two queens attack each other.
+    
+    Example: N = 4 → Find all valid arrangements.
+28. Rat in a Maze
+    
+    Find a path for a rat to travel from the starting cell to the destination in a maze using recursion and backtracking.
+29. Sudoku Solver
+    
+    Solve a Sudoku puzzle using recursive backtracking.
+30. Word Search in a Matrix
+    
+    Search for a given word in a character matrix by moving horizontally or vertically to adjacent cells without reusing a cell.

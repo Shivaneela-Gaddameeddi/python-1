@@ -1,0 +1,1 @@
+#dic lambda function

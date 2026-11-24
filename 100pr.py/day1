@@ -1,0 +1,7 @@
+email=list(map(str,input().split()))
+for i in email:
+    if i.count('@')!=1:
+        print(f"Invalid Email:{i}")
+    else:
+        first_part,second_part=i.split('@')
+        print(second_part)
